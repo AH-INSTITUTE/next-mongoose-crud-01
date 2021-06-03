@@ -23,7 +23,7 @@ const NewNote = () => {
 
     const createNote = async () => {
         try {
-            const res = await fetch('http://localhost:3000/api/notes', {
+            const res = await fetch('https://next-moongoose-crud.herokuapp.com/api/notes', {
                 method: 'POST',
                 headers: {
                     "Accept": "application/json",
